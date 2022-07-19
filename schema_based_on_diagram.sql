@@ -11,6 +11,7 @@ CREATE TABLE medical_histories (
     admitted_at TIMESTAMP,
     patient_id int PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     status VARCHAR(200),
+     CONSTRAINT fk_patients FOREIGN KEY(patient_id) REFERENCES patients(id),
 );
 
 CREATE TABLE treatments (id INT PRIMARY KEY,type VARCHAR,name VARCHAR);
