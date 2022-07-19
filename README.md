@@ -36,7 +36,7 @@ To view the SQL syntax for creating the database and populating the table;
 - Twitter: https://twitter.com/ppmarq1
 - LinkedIn: https://br.linkedin.com/in/pedroalmeidamarques/
 
-👤 **Author1** Emmanuel Moombe
+👤 **Emmanuel Moombe** 
 
 - GitHub: https://github.com/medsonmoombe
 - Twitter: https://twitter.com/@emmanue78388405
