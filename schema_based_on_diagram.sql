@@ -3,7 +3,7 @@
 CREATE TABLE patients (
 id int PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 name VARCHAR(200),
-date_of_birth date,
+date_of_birth date
 );
 
 CREATE TABLE medical_histories (
@@ -11,7 +11,7 @@ CREATE TABLE medical_histories (
     admitted_at TIMESTAMP,
     patient_id int,
     status VARCHAR(200),
-     CONSTRAINT fk_patients FOREIGN KEY(patient_id) REFERENCES patients(id),
+     CONSTRAINT fk_patients FOREIGN KEY(patient_id) REFERENCES patients(id)
 );
 
 CREATE TABLE treatments (id INT PRIMARY KEY,type VARCHAR,name VARCHAR);
