@@ -44,7 +44,7 @@ To view the SQL syntax for creating the database and populating the table;
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!!
 
 Feel free to check the [issues page](https://github.com/ppmarq1/Clinic-Database/issues).
 
